@@ -8,11 +8,6 @@ namespace ConsoleApp5
 {
     class Program
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
-
         public interface IOrder
         {
             int Id { get; set; }
